@@ -33,7 +33,7 @@ UPDATEFLG="F"
 
 # Additional ssh arguments. This optional argument suppresses manual host authenticity prompt. This occurs when an AMD has not been connected to previously.
 # This can be commented out to suppress this potentially insecure behaviour.
-OPTSSHARGS="-o 'StrictHostKeyChecking no'"
+OPTSSHARGS="-o StrictHostKeyChecking=no"
 
 
 
